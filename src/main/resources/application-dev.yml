@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/messenger
+    username: root
+    password: fer1234
+  jpa:
+    hibernate:
+      ddl-auto: update
