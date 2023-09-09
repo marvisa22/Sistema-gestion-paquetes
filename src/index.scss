@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// Variable declarations
+$primary-color: #FFD93D;
+$secondary-color: #FF8400;
+$complementary-color: #F6F1E9;
+$dark-color: black;
+$main-font: 'Helvetica Neue', sans-serif;
+$spacing: 1rem;
+
+body {
+  font-family: $main-font;
+  background-color: $complementary-color;
+  //background-image: url(https://cdn.pixabay.com/photo/2015/04/03/16/36/bee-705412_1280.png);
+}
+
+h1 {
+  color: $primary-color;
+  font-size: 2rem;
+}

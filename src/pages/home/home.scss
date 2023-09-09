@@ -1,0 +1,71 @@
+@import '../../index.scss';
+
+.MuiInputBase-input .css-yz9k0d-MuiInputBase-input {
+    border: black;
+}
+.container__banner {
+   // background-color: aqua;
+   display: flex;
+   //flex-direction: column;
+   align-items: center;
+   height: 90vh;
+
+}
+.css-1kcggdq-MuiInputBase-root .MuiInputBase-input {
+   // background-color: red;
+    border: 1px solid gray !important;
+    border-radius: 12px;
+}
+.section__search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container__btn {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-color !important;
+    padding: 1rem;
+    border-radius: 12px;
+}
+#miDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container__types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 70vh;
+   //flex-direction: column;
+  }
+  .types__title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .container__fragility {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 70vh;
+  }
+  .btn_face {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center ;
+    width: 150px;
+    height: 150px;
+  }
+ .btn-confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 70vh;
+ }
