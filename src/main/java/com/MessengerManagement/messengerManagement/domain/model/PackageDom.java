@@ -13,11 +13,11 @@ public class PackageDom {
     private Fragility fragility;
     private TypeMessenger typeMessenger;
     private boolean valueDeclared;
-    private Integer valueDeclaredNumber;
+    private Double valueDeclaredNumber;
     private TypePay typePay;
 
 
-    public PackageDom(String addressInput, String addressOutput, TypePackage typePackage, Fragility fragility, TypeMessenger typeMessenger, boolean valueDeclared, Integer valueDeclaredNumber, TypePay typePay) {
+    public PackageDom(String addressInput, String addressOutput, TypePackage typePackage, Fragility fragility, TypeMessenger typeMessenger, boolean valueDeclared, Double valueDeclaredNumber, TypePay typePay) {
         this.addressInput = addressInput;
         this.addressOutput = addressOutput;
         this.typePackage = typePackage;
@@ -79,11 +79,11 @@ public class PackageDom {
         this.valueDeclared = valueDeclared;
     }
 
-    public Integer getValueDeclaredNumber() {
+    public Double getValueDeclaredNumber() {
         return valueDeclaredNumber;
     }
 
-    public void setValueDeclaredNumber(Integer valueDeclaredNumber) {
+    public void setValueDeclaredNumber(Double valueDeclaredNumber) {
         this.valueDeclaredNumber = valueDeclaredNumber;
     }
 
